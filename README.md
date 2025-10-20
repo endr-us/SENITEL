@@ -1,8 +1,6 @@
 # SENITEL
 360° Threat Detection Module
 
-[![License](https://img.shields.io/github/license/endr-us/SENITEL)](LICENSE)
-
 Overview
 
 SENITEL is a 360° threat detection system that aggregates sensor data, runs analysis and detection pipelines, and provides alerts and actionable intelligence for security teams.
@@ -43,10 +41,4 @@ Usage
 - Tune detection thresholds in the detection engine configuration.
 - Use the REST API to query events and the web UI for visualizing detections.
 
-Contributing
-
-Contributions are welcome. Please open issues or pull requests, follow the contribution guidelines in CONTRIBUTING.md, and sign the CLA if prompted.
-
-License
-
-This project is provided under the license shown above. See the LICENSE file for details.
+[![License](https://img.shields.io/github/license/endr-us/SENITEL)](LICENSE)
