@@ -5,11 +5,11 @@
 [![Python](https://img.shields.io/badge/python-3.8%2B-blue.svg)](https://www.python.org/)
 [![Rust](https://img.shields.io/badge/rust-1.70%2B-orange.svg)](https://www.rust-lang.org/)
 
-**SENITEL** is a sophisticated 360-degree threat detection system that leverages the power of Python and Rust to deliver real-time object recognition for identifying hazardous and weaponry objects within its field of view. Utilizing synchronized camera inputs and edge-based CNN inference, SENITEL provides scalable security solutions from single Raspberry Pi deployments to globally distributed edge computing networks.
+**SENITEL** is an innovative and scalable 360-degree threat detection system that leverages the power of Python and Rust to deliver real-time object recognition for identifying hazardous and weaponry objects within its field of view. Utilizing synchronized camera inputs and edge-based CNN inference, SENITEL provides scalable security solutions from single Raspberry Pi deployments to globally distributed edge computing networks.
 
 ---
 
-## 🎯 Overview
+## Overview
 
 SENITEL combines cutting-edge computer vision, deep learning, and high-performance computing to create a robust threat detection platform. The system is designed to:
 
@@ -21,7 +21,7 @@ SENITEL combines cutting-edge computer vision, deep learning, and high-performan
 
 ---
 
-## ✨ Key Features
+## Key Features
 
 ### Core Capabilities
 - **360° Visual Coverage**: Synchronize multiple camera inputs for complete perimeter monitoring
@@ -40,7 +40,7 @@ SENITEL combines cutting-edge computer vision, deep learning, and high-performan
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 
 SENITEL employs a hybrid architecture combining Python's machine learning ecosystem with Rust's performance and safety guarantees:
 
@@ -75,7 +75,7 @@ SENITEL employs a hybrid architecture combining Python's machine learning ecosys
 
 ---
 
-## 🔧 Hardware Requirements
+## Hardware Requirements
 
 ### Minimum Configuration (Prototype)
 - **Compute**: Raspberry Pi 4 (4GB RAM minimum)
@@ -94,7 +94,7 @@ SENITEL employs a hybrid architecture combining Python's machine learning ecosys
 
 ---
 
-## 📦 Installation
+## Installation
 
 ### Prerequisites
 
@@ -152,7 +152,7 @@ python scripts/download_models.py
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Basic Usage
 
@@ -205,7 +205,7 @@ alerts:
 
 ---
 
-## 📊 Performance
+## Performance
 
 ### Benchmarks (Raspberry Pi 4, 4GB)
 
@@ -226,7 +226,7 @@ alerts:
 
 ---
 
-## 🌍 Scalability & Deployment
+## Scalability & Deployment
 
 ### Small Scale (Single Device)
 Perfect for:
@@ -261,7 +261,7 @@ Designed for:
 
 ---
 
-## 🔮 Future Technologies
+## Future Technologies
 
 ### Planned Enhancements
 
@@ -290,7 +290,7 @@ Designed for:
 
 ---
 
-## 🛠️ Development
+## Development
 
 ### Project Structure
 
@@ -347,7 +347,7 @@ python tests/integration_test.py
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 We welcome contributions from the community! Whether you're fixing bugs, adding features, or improving documentation, your help is appreciated.
 
@@ -369,13 +369,13 @@ We welcome contributions from the community! Whether you're fixing bugs, adding 
 
 ---
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - **TensorFlow** and **PyTorch** communities for excellent ML frameworks
 - **Rust** community for a safe and performant systems language
@@ -385,7 +385,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-## 📞 Contact & Support
+## Contact & Support
 
 - **Issues**: [GitHub Issues](https://github.com/endr-us/SENITEL/issues)
 - **Discussions**: [GitHub Discussions](https://github.com/endr-us/SENITEL/discussions)
@@ -394,16 +394,16 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-## 🔐 Security
+## Security
 
 For security vulnerabilities, please email security@senitel.io instead of using the public issue tracker.
 
 ---
 
-## 🗺️ Roadmap
+## Roadmap
 
 ### Phase 1: Foundation (Current)
-- [x] Core architecture design
+- [ ] Core architecture design
 - [ ] Basic single-camera detection
 - [ ] Raspberry Pi optimization
 - [ ] Initial model training
@@ -425,7 +425,3 @@ For security vulnerabilities, please email security@senitel.io instead of using 
 - [ ] Transformer-based models
 - [ ] Thermal and LiDAR fusion
 - [ ] Global deployment infrastructure
-
----
-
-**Built with ❤️ for a safer world**
