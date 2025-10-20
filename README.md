@@ -46,22 +46,22 @@ SENITEL employs a hybrid architecture combining Python's machine learning ecosys
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
-│                     SENITEL System                           │
+│                     SENITEL System                          │
 ├─────────────────────────────────────────────────────────────┤
-│  Python Layer                                                │
-│  ├─ Model Training & Management                              │
-│  ├─ High-Level Coordination                                  │
-│  ├─ CNN Inference (TensorFlow/PyTorch)                       │
-│  └─ Alert Generation & Logging                               │
+│  Python Layer                                               │
+│  ├─ Model Training & Management                             │
+│  ├─ High-Level Coordination                                 │
+│  ├─ CNN Inference (TensorFlow/PyTorch)                      │
+│  └─ Alert Generation & Logging                              │
 ├─────────────────────────────────────────────────────────────┤
-│  Rust Layer                                                  │
-│  ├─ Camera Input Synchronization                             │
-│  ├─ Frame Buffer Management                                  │
-│  ├─ Low-Level Image Processing                               │
-│  └─ Performance-Critical Pipelines                           │
+│  Rust Layer                                                 │
+│  ├─ Camera Input Synchronization                            │
+│  ├─ Frame Buffer Management                                 │
+│  ├─ Low-Level Image Processing                              │
+│  └─ Performance-Critical Pipelines                          │
 ├─────────────────────────────────────────────────────────────┤
-│  Hardware Layer                                              │
-│  ├─ Camera Modules (CSI/USB)                                 │
+│  Hardware Layer                                             │
+│  ├─ Camera Modules (CSI/USB)                                │
 │  ├─ Edge Device (Raspberry Pi / Jetson Nano / Custom)       │
 │  └─ Optional: Accelerators (Coral TPU, Intel NCS)           │
 └─────────────────────────────────────────────────────────────┘
@@ -344,84 +344,3 @@ cargo test --release
 # Integration tests
 python tests/integration_test.py
 ```
-
----
-
-## Contributing
-
-We welcome contributions from the community! Whether you're fixing bugs, adding features, or improving documentation, your help is appreciated.
-
-### How to Contribute
-
-1. **Fork the Repository**
-2. **Create a Feature Branch** (`git checkout -b feature/amazing-feature`)
-3. **Commit Your Changes** (`git commit -m 'Add amazing feature'`)
-4. **Push to the Branch** (`git push origin feature/amazing-feature`)
-5. **Open a Pull Request**
-
-### Development Guidelines
-
-- Follow PEP 8 for Python code
-- Use `rustfmt` for Rust code formatting
-- Add tests for new features
-- Update documentation as needed
-- Ensure all tests pass before submitting PR
-
----
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-## Acknowledgments
-
-- **TensorFlow** and **PyTorch** communities for excellent ML frameworks
-- **Rust** community for a safe and performant systems language
-- **OpenCV** for computer vision capabilities
-- **Raspberry Pi Foundation** for accessible edge computing hardware
-- All contributors and users who help improve SENITEL
-
----
-
-## Contact & Support
-
-- **Issues**: [GitHub Issues](https://github.com/endr-us/SENITEL/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/endr-us/SENITEL/discussions)
-- **Email**: support@senitel.io
-- **Documentation**: [Full Documentation](https://docs.senitel.io)
-
----
-
-## Security
-
-For security vulnerabilities, please email security@senitel.io instead of using the public issue tracker.
-
----
-
-## Roadmap
-
-### Phase 1: Foundation (Current)
-- [ ] Core architecture design
-- [ ] Basic single-camera detection
-- [ ] Raspberry Pi optimization
-- [ ] Initial model training
-
-### Phase 2: Multi-Camera (Q1 2026)
-- [ ] Camera synchronization
-- [ ] 360° coverage algorithms
-- [ ] Performance optimization
-- [ ] Web-based monitoring dashboard
-
-### Phase 3: Scale (Q2-Q3 2026)
-- [ ] Multi-device orchestration
-- [ ] Cloud integration
-- [ ] Federated learning implementation
-- [ ] Advanced alert management
-
-### Phase 4: Next-Gen (Q4 2026+)
-- [ ] Eye-gaze tracking integration
-- [ ] Transformer-based models
-- [ ] Thermal and LiDAR fusion
-- [ ] Global deployment infrastructure
