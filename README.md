@@ -1,4 +1,19 @@
 # SENITEL
+
+> **Historical concept documentation — current context as of 2026-09-08**
+
+SENITEL is historical perception concept documentation, superseded by endr's current mission-autonomy software direction. This repository contains concept documentation only.
+
+The implementation, hardware results, benchmarks, and licensing described in the historical text below are not established by the contents of this repository.
+
+Visit [endr's current company profile](https://github.com/endrhq) for the current direction.
+
+---
+
+<details>
+<summary>Historical README — preserved verbatim for context</summary>
+
+# SENITEL
 ### 360° Threat Detection System
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
@@ -344,3 +359,5 @@ cargo test --release
 # Integration tests
 python tests/integration_test.py
 ```
+
+</details>
